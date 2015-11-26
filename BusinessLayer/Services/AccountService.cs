@@ -11,12 +11,6 @@ namespace BusinessLayer.Services
         private IAccountRepository _repository;
         private ICustomerService _customerService;
 
-        public AccountService()
-        {
-            _repository = new AccountRepository();
-            _customerService = new CustomerService();
-        }
-
         public AccountService(IAccountRepository repository, ICustomerService customerService)
         {
             _repository = repository;

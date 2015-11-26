@@ -12,11 +12,6 @@ namespace WebAPI.Controllers
     {
         private IAccountService _service;
 
-        public AccountController()
-        {
-            _service = new AccountService();
-        }
-
         public AccountController(IAccountService service)
         {
             _service = service;
