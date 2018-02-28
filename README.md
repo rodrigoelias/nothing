@@ -6,5 +6,3 @@ This is a simple assignment with some basic needs:
 * The user must be able to check s/he's account balance.
 
 The code must be tested/testable and layers must be mocked.
-
-My first implementation is a really poor usage of DDD (mostly using Entity+Repository).
